@@ -1,6 +1,6 @@
 # GiftShop
 Adaptive layouts for the shop of clithes and goods.
-Demo: 
+Demo: https://ostapenko25.github.io/GiftShop/
 
 ========================
 
@@ -9,4 +9,4 @@ Demo:
 2. Самописные элементы на нативном Javascript: два слайдера (один из них адаптивный, в ПК-версии имеет 3 кадра, в версии для планшетов - 1 кадр) и меню-гамбургер в мобильной версии.
 3. Для анимации появления блоков использованы плагины animation.css и wow.js
 4. Использована методология БЭМ для именование классов и организации проекта. 
-Демо: 
+Демо: https://ostapenko25.github.io/GiftShop/
