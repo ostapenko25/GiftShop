@@ -1,0 +1,293 @@
+/*Newprod -- begin*/
+.newprod {
+	position: relative;
+	min-height: 30vh;
+	padding-top: 2vh;
+	padding-bottom: 5vh;	
+}
+
+.newprod__header {	
+	padding: 1vh;
+	margin-top: 5vh;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 3vh;
+	position: relative;	
+}
+
+.newprod__title {
+	width: 15vw;
+	font-size: 3vh;
+	color: blue;
+  border-bottom: 1px solid #f0626e;
+	position: absolute;
+	top: -3.5vh;
+	left: 0;
+	padding: 1vh ;
+	margin-left: 2vw;
+	color: #05aecc;
+}
+
+.newprod__item {
+  width: 27vw;
+  height: 50vw;   
+  position: relative;
+}
+
+.newprod__item img{
+  width: 27vw;
+  height: 20vw;     
+}
+
+.newprod__hidden {
+	opacity: 0;
+	transition: all 0.3s ease;
+	width: 27vw;
+  height: 20vw;      
+  position: absolute;
+  top: 0; 
+  left: 2.5vh;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+}
+
+.newprod__btn {	
+	display: flex;
+	position: absolute;
+	top: 28%;
+	left: 5%;
+	color: white;
+	color: white;
+	background: black;
+	font-size: 2.5vh;
+}
+
+.newprod__item:hover .newprod__hidden {
+	 opacity: 1;
+	 transition: all 0.3s ease;
+}
+
+/*NewOroduct slider*/
+.newprod__carousel {
+  width: 86vw;
+}
+
+.newprod__item {
+  box-sizing: content-box;
+  width: 27vw;  
+  display: block; 
+	padding: 0 1.2vw;
+	position: relative;
+}
+
+.newprod__arrow {
+	color: white;
+	width: 4vw;
+	height: 7vh;
+	border: none;
+}
+
+.newprod__arrow.new-prev {
+	background: #05aecc;
+}
+
+.newprod__arrow.new-next {
+	background: #000000;
+}
+
+.newprod__arrow:focus {
+  outline: none;
+}
+
+.newprod__arrow:hover {
+  background: #f0626e;
+  cursor: pointer;
+}
+
+.new-prev {
+  position: absolute;
+  right: 4vw;
+  top: 2vh;
+}
+
+.new-next {
+  position: absolute;
+  right:  0;
+  top: 2vh;
+}
+
+.newprod__gallery {
+  width: 85vw;
+  overflow: hidden;
+	margin: 0 auto;
+}
+
+.newprod__gallery ul {
+  height: 30vh;
+  width: 9999px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 0.5s ease;
+  font-size: 0;
+}
+
+.newprod__gallery li {
+	box-sizing: content-box;
+  display: inline-block;	
+}
+
+.newprod__item img {
+	width: 100%;
+}
+
+.newprod__arrow {
+	font-size: 5vh;
+	line-height: 4vh;
+}
+/*Newprod -- end*/
+
+/*********************************/
+
+/*Md-newprod -- begin (NewProduct slider for tablets)*/
+
+.md-newprod {
+	position: relative;
+	min-height: 30vh;
+	padding-top: 2vh;
+	padding-bottom: 5vh;	
+}
+
+.md-newprod__header {	
+	padding: 1vh;
+	margin-top: 5vh;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 3vh;
+	position: relative;	
+}
+
+.md-newprod__title {
+	width: 30vw;
+	font-size: 3vh;
+	color: blue;
+  border-bottom: 1px solid #f0626e;
+	position: absolute;
+	top: -3.5vh;
+	left: 0;
+	padding: 1vh ;
+	margin-left: 2vw;
+	color: #05aecc;
+}
+
+.md-newprod__item {
+    width: 80vw;
+    height: 269px;   
+    position: relative;
+}
+
+.md-newprod__item img{
+    width: 100%;  
+	  overflow: hidden;
+}
+
+.md-newprod__hidden {
+	  opacity: 1;
+	  transition: all 0.3s ease;
+	  width: 100vw;
+    min-height: 350px;      
+    position: absolute;
+  	top: 0; 
+  	left: 1vh;
+    color: #fff;
+}
+
+.md-newprod__btn {	
+	display: flex;
+	position: absolute;
+	top: 10vh;
+	right:20vw;
+	color: white;	
+	background: black;
+	font-size: 2.5vh;
+}
+
+/*md-newprod slider*/
+.md-newprod__carousel {
+  width: 86vw;
+}
+
+.md-newprod__item {
+  box-sizing: content-box;
+  width: 100vw;  
+	height: auto;
+  display: block; 
+	padding-left: 1.2vw;
+	position: relative;	
+}
+
+.md-newprod__arrow {
+	color: white;
+	width: 4vw;
+	height: 7vh;
+	border: none;
+}
+
+.md-newprod__arrow.md-new-prev {
+	background: #05aecc;
+}
+
+.md-newprod__arrow.md-new-next {
+	background: #000000;
+}
+
+.md-newprod__arrow:focus {
+  outline: none;
+}
+
+.md-newprod__arrow:hover {
+  background: #f0626e;
+  cursor: pointer;
+}
+
+.md-new-prev {
+  position: absolute;
+  right: 10vw;
+  top: 2vh;
+}
+
+.md-new-next {
+  position: absolute;
+  right:  0;
+  top: 2vh;
+}
+
+.md-newprod__gallery {
+  width: 85vw;
+  overflow: hidden;
+	margin: 0 auto;
+}
+
+.md-newprod__gallery ul {
+  max-height: 250px;
+	overflow: hidden;
+  width: 9999px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 0.5s ease;
+  font-size: 0;
+}
+
+.md-newprod__gallery li {
+	box-sizing: content-box;
+  display: inline-block;	
+}
+
+.md-newprod__item img {
+	width: 100%;
+}
+
+.md-newprod__arrow .md-new-prev .sl-arrow {
+	border: 2px solid red;
+}
+
+/*Md-newprod -- end*/

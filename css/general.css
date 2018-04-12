@@ -1,0 +1,77 @@
+body {    
+  padding: 0;
+  margin: 0;
+	background: white;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.5px;	
+}
+
+.clearfix {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+section, header, footer, nav {	
+	width: 90%;
+	margin: 0 auto;
+}
+
+img {
+	display: inline-block;
+  width: 100%;    
+  overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	margin: 0;
+}
+
+.btn-block {
+  display:  flex;
+}
+
+.btn {
+  display: block;
+  width: 4vw;
+  height: 5vh;  
+  color: white; 
+	padding-top: 1.5vh;
+}
+
+.btn.btn-category {
+	 display: block;
+	 background: #05aecc;
+	 width: 10vw;
+	 text-align: center;
+	 padding-top: 1.5vh;
+}
+
+.btn.btn-gift {
+	 background: #00a1be url('../img/btn-img/gift.png') no-repeat 1.3vw 1.6vh;
+	 background-size: 1.5vw 3vh;
+}
+
+.btn.btn-cart {
+	 background: #f0626e url('../img/btn-img/cart.png') no-repeat 1.3vw 1.6vh;
+	 background-size: 1.5vw 3vh;
+}
+
+.btn.btn-price {
+	 background: #323232;
+	 padding-top: 1.5vh;
+	 padding-left: 0.5vw;
+	 padding-right: 1.2vw;
+}

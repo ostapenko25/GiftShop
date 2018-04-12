@@ -1,0 +1,114 @@
+/*Footer -- begin*/
+.footer h2 {
+	text-transform: uppercase;
+	font-size: 3vh;
+	font-weight: 400;
+	padding: 2vh 0;
+}
+
+.footer a {
+	color: #000;
+}
+
+.footer a:hover {
+	color: red;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.footer__l-top {	
+	display: flex;
+	justify-content:  space-around;	
+	border-top: 1px solid #d5d5d5;
+}
+
+.footer ul li {
+	padding: 0.5vh 0;
+}
+
+.subs-form input {
+	width: 98%;
+	height: 7vh;
+	font-size: 1.8vh;
+	color: grey;
+	text-align: center;
+	text-transform:  uppercase;
+}
+
+.subs-form input:focus {
+	outline: 2px solid #44aacb;
+}
+
+.subs-form input[type="submit"] {
+	width: 100%;
+	background-color: #05aecc;
+	color: white;
+	border: none;
+	outline: none;	
+}
+
+.subs-form input[type="submit"]:hover {	
+	background-color: #3686a0;
+}
+
+.footer__soc .btn-soc {
+	display: inline-block;
+	width: 30px;
+	height: 30px;	
+}
+
+.btn-soc.btn-rss {
+	background: #f8bc2e url(../../img/social-img/rss.png) 50% no-repeat;	
+	background-size: 70%;
+}
+
+.btn-soc.btn-fb {
+	background: #39599f url(../../img/social-img/fb.png) 50% no-repeat;	
+	background-size: 10%;
+}
+
+.btn-soc.btn-tw {
+	background: #45b0e3 url(../../img/social-img/tw.png) 50% no-repeat;	
+	background-size: 70%;
+}
+
+.btn-soc.btn-fb {
+	background: #39599f url(../../img/social-img/fb.png) 50% no-repeat;	
+	background-size: 40%;
+}
+
+.btn-soc.btn-go {
+	background: #1872bf url(../../img/social-img/go.png) 50%no-repeat;	
+	background-size: 40%;
+}
+
+.btn-soc.btn-fl {
+	background: #ffffff url(../../img/social-img/fl.png) 50%no-repeat;	
+	border: 1px solid #d5d5d5;
+	background-size: 70%;
+}
+
+.btn-soc:hover {
+	filter: drop-shadow(2px 4px 3px #3686a0);
+}
+
+.footer__l-bottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 3vh;
+	margin: 4vh 0;
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	font-size: 1.8vh;
+}
+
+.footer__copy {
+	display:  flex;
+	justify-content:  flex-start;	   
+}
+
+.footer__l-bottom a {
+	color: red;
+}
+
+/*Footer -- end*/

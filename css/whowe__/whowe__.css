@@ -1,0 +1,35 @@
+/*Whowe -- begin*/
+.whowe {
+	position: relative;
+	min-height: 30vh;
+	padding-top: 2vh;
+	padding-bottom: 5vh;	
+}
+
+.whowe__header {	
+	padding: 1vh;
+	margin-top: 5vh;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 3vh;
+	position: relative;	
+}
+
+.whowe__title {	
+	width: 10vw;
+	font-size: 3vh;
+	color: blue;
+  border-bottom: 1px solid #f0626e;
+	position: absolute;
+	bottom: 0;
+	left: 2vw;
+	padding: 1vh;
+	color: #05aecc;
+}
+
+.whowe__text {
+	text-align: justify;
+	padding-left: 2vw;
+	font-size: 2.5vh;
+	line-height: 3.5vh;
+}
+/*Whowe -- end*/

@@ -1,0 +1,155 @@
+/*promo-top -- begin*/
+.promo-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: no-wrap; 
+	justify-content: space-around;
+	margin: 0 5vw; 
+}
+
+.promo-inner {  
+  height: 50vh; 
+  width: 50vw;
+	margin: 5px 0;
+}
+
+.promo-item {
+  height: 25vh;
+  background: grey;
+  margin: 0 0 5px 5px;
+}
+
+.promo-top h2 {
+	margin: 0;
+}
+
+.promo-man,
+.promo-women,
+.promo-child {
+	position: relative;
+}
+
+.man__title, 
+.women__title {
+	font-family: 'Lora', serif;
+	font-size: 1.2em;
+	color: #f0626e;
+	text-transform: uppercase;
+	padding-left: 1vw;
+	background: rgba(57, 44, 80, 0.8);
+}
+
+.man__title {
+	width: 50%;
+	position: absolute;
+	bottom: 6.5vh;
+	left: 0;	
+}
+
+.women__title {
+	width: 50%;
+	position: absolute;
+	bottom: 2vh;
+	left: 0;	
+}
+
+.promo-top h2 {	
+	padding-top: 1vh;
+}
+
+.promo-man:hover {
+	background-size: 140%;
+	cursor: pointer;
+	filter: saturate(0.4);  
+	transition: all 400ms linear;
+	overflow: hidden;
+}
+
+.promo-women:hover,
+.promo-child:hover {
+	background-size: 180%;
+	cursor: pointer;
+	filter: saturate(0.4);  
+	transition: all 400ms linear;
+	overflow: hidden;
+} 
+
+.promo-top p {
+	margin-top: 0.5vh;
+	font-size: 0.5em;
+	color: white;
+	background: rgba(57, 44, 80, 0.8);
+}
+
+.man__addtext {
+	width: 48%;
+	position: absolute;
+	bottom: 1.5vh;
+	left: 0;
+	background: rgba(240, 100, 110, 0.9);
+	color: white;
+	margin: 0;
+	padding: 1vh 1vw;
+	font-size: 2vh;
+	text-transform: uppercase;
+}
+
+.promo-man {
+	background: url('../../img/__promo1-img/promo1-info1.jpg') no-repeat 50% 15%;
+	background-size: 130%; 
+  position: relative;
+  width: 0;
+  height: 0;
+  padding: 36vh 25vw;
+}
+
+.promo-info-right {
+	width: 38.5vw;
+	height: 50vh;
+}
+
+.promo-man img,
+.promo-info-right img {
+  width: 100%;
+  height: auto;
+}
+
+.promo-women {
+	background: url('../../img/__promo1-img/promo1-info2.jpg') no-repeat 			20% 15%;
+	background-size: 160%; 
+	height: 40vh;
+}
+
+.promo-child {
+	background: url('../../img/__promo1-img/promo1-info3.jpg') no-repeat 50% 15%;
+	background-size: 160%; 
+	height: 31vh;
+}
+
+.promo-child .btn-block {
+	position:  absolute;
+	bottom: 3vh;
+	right: 0;	
+}
+
+.promo-child .btn-category:hover,
+.promo-2__crafts .btn-category:hover,
+.newprod__btn .btn-category:hover {
+	background-color: #3686a0; /*темно-синий*/
+	transition: all 0.5s ease;
+}
+
+.promo-child .btn-gift:hover,
+.promo-2__crafts .btn-gift:hover,
+.newprod__btn .btn-gift:hover {
+	background-color: #81cadb; /*светло-синий*/
+	transition: all 0.5s ease;
+}
+
+.promo-child .btn-cart:hover,
+.promo-2__crafts .btn-cart:hover,
+.newprod__btn .btn-cart:hover {
+	background-color: #c54457; /*темно-красный*/
+	transition: all 0.5s ease;
+}
+/*promo-top -- end*/

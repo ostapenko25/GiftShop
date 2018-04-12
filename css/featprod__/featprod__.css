@@ -1,0 +1,217 @@
+/*Featureprod -- begin*/
+.featprod__img {
+	width: 100%;  
+	height: 40vh;
+  margin: 0; 
+  overflow: hidden;     
+}
+
+.featprod__img img {
+ 	width: 100%;   
+}
+
+.featprod {  
+	position: relative;
+	min-height: 30vh;
+	padding-top: 2vh;
+	padding-bottom: 5vh;	
+}
+
+.featprod__header {	
+	padding: 1vh;
+	margin-top: 5vh;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 3vh;
+	position: relative;	
+}
+
+figcaption {
+	min-height: 13vh;
+}
+
+.featprod__title {	
+	width: 15vw;
+	font-size: 3vh;
+	color: blue;
+  border-bottom: 1px solid #f0626e;
+	position: absolute;
+	bottom: 0;
+	left: 2vw;
+	padding: 1vh;	
+	color: #05aecc;
+}
+
+.featprod__item-title {
+	color: dimgrey;
+	padding: 0.5vh  1vh 0  1vh;
+	font-size: 2.5vh;
+}
+
+.featprod__des {
+	color: red;
+	padding: 0.5vh 1vh;
+	font-size: 2vh;
+}
+
+.featprod__item .btn-block {
+	background: red;
+	position: absolute;
+	bottom: 0;
+}
+
+.featprod__btn {	
+	display: flex;
+	position: absolute;
+	bottom: 0%;
+	left: 15%;
+	color: #000000;
+	background: #fff;
+	font-size: 2.5vh;
+}
+
+.featprod .btn-arrow {	
+	background: #fff url(../../img/btn-img/arrows.png) 50% no-repeat;	
+}
+
+.featprod .btn-arrow:hover {	
+	background: #90e2f4 url(../../img/btn-img/arrows.png) 50% no-repeat;	
+}
+
+.featprod .btn-gift {	
+	background: #fff url(../../img/btn-img/gift1.png) 50% no-repeat;
+	background-size: 30%;	
+}
+
+.featprod .btn-gift:hover {
+	background: #90e2f4 url(../../img/btn-img/gift1.png) 50% no-repeat;
+	background-size: 30%;
+}
+
+.featprod .btn-cart {	
+	background: #fff url(../../img/btn-img/cart1.png) 50% no-repeat;
+	background-size: 35%;
+}
+
+.featprod .btn-cart:hover {	
+	background: #90e2f4 url(../../img/btn-img/cart1.png) 50% no-repeat;
+	background-size: 35%;
+}
+
+.featprod .btn-price {	
+	background: red;	
+	text-align: center;
+}
+
+.featprod .btn-price:hover {	
+	background:#c54457;	
+}
+
+.featprod .btn-price span{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+}
+
+/*featpROSUCT slider*/
+.featprod__carousel {
+  width: 90vw;
+}
+
+.featprod__item {	
+  width: 18vw;   /*ширина карточки слайдера*/
+  display: block;
+	padding: 0 1.7vw;  /*расстояние между карточками слайдера*/
+	position: relative;	
+}
+
+.featprod__arrow {
+	color: white;
+	width: 4vw;
+	height: 7vh;
+	border: none;
+}
+
+.featprod__arrow.feat-prev {
+	background: #05aecc;
+}
+
+.featprod__arrow.feat-next {
+	background: #000000;
+}
+
+.featprod__arrow:focus {
+  outline: none;
+}
+
+.featprod__arrow:hover {
+  background: #f0626e;
+  cursor: pointer;
+}
+
+.feat-prev {
+  position: absolute;
+  right: 4vw;
+  top: 2vh;
+}
+
+.feat-next {
+  position: absolute;
+  right:  0;
+  top: 2vh;
+}
+
+.featprod__gallery {
+  width: 87vw;
+  overflow: hidden;
+}
+
+.featprod__gallery ul { 
+  width: 9999px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 0.5s ease;
+  font-size: 2vh;
+}
+
+.featprod__gallery li {
+	box-sizing: content-box;
+  display: inline-block;	
+}
+
+.featprod__item img {
+	width: 100%;
+	height: auto;	
+}
+
+.featprod__img {
+	position:  relative;
+	overflow: hidden;
+}
+
+.featprod__disc,
+.featprod__new {
+	position: absolute;
+	top: 10px;
+	left; 0;
+	width: 60px;
+	height: 30px;
+	color: white;
+	padding-top: 15px;
+	font-size: 2.5vh;
+	text-align: center;
+	vertical-align: middle;
+	background-color: red;
+}
+
+.featprod__new {
+	background-color: #44aacb;
+}
+
+.featprod__arrow {
+	font-size: 5vh;
+	line-height: 4vh;
+}
+/*featprod -- end*/
+

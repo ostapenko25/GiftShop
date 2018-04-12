@@ -1,0 +1,92 @@
+/*Header -- begin*/
+.header {
+	background: white;
+	min-height: 10vh;
+	font-size: 2.5vh;
+}
+
+.header__logo {
+	width: 13%;
+	float: left;
+	min-height: 15vh;
+	padding-top: 3vh;
+	padding-bottom: 1.2vh;
+}
+
+.header__logo img {
+	width: 100%;
+	height: 15vh;
+}
+
+.header__menu-wrapper {
+	min-height: 10vh;	
+}
+
+.header__menu1,
+.header__menu2 {
+	width: 50%;
+  display: flex;
+	justify-content: flex-start;
+  text-align: center;      
+  padding: 0;	 
+}
+
+.menu1__btn,
+.menu2__btn {
+  list-style: none;
+  flex: 1;
+}
+
+.menu1__btn a,
+.menu2__btn a {    
+  display: block;
+  width: 100%; 
+}
+
+.menu1__btn a:hover {
+	color: #81cadb;
+}
+
+
+.header__menu2 a:hover {
+  background-color: #0389a1;  
+	color: white;	
+	transition: all 0.3s ease;
+}
+
+.active {
+  background-color: #1B3039;
+	color: white;
+}
+
+.menu1__btn a {
+	color: #858585;	
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	margin-right: 2vw;	
+}
+
+.menu2__btn:nth-child(2n) a {	
+	background-color: #f0626e;
+}
+
+.menu2__btn:nth-child(2n) a:hover {	
+	background-color: #ce4a55;
+}
+
+.menu2__btn {
+	margin-right: 2vw;
+	margin-left: 0.4vw;
+}
+
+.menu2__btn a {
+	background: #05aecc;
+	color: #fff;
+	padding: 5vh 1vw;
+}
+
+.header__menu1,
+.header__menu2 {
+	float: right;
+}
+/*Header -- end*/

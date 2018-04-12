@@ -1,0 +1,66 @@
+/*Registration - begin*/
+.reg__items {
+	display: flex;
+	justify-content: space-around;
+	position: relative;	
+}
+
+.reg__items > a {
+	display: block;
+	min-height: 150px;
+	color: white;	
+	width: 25vw;	
+}
+
+.reg__items > a:hover {
+	filter: brightness(0.8);
+	transition: all 0.3s ease;
+}
+
+.reg__choose {	
+	background: #434343 url(../../img/__reg-img/reg1.png) no-repeat 30% 50%;
+	background-size: 35%;
+	position: relative;
+}
+
+.reg__choose span,
+.reg__login span, 
+.reg__check span {
+	font-size: 1.3vw;
+	position: absolute;
+	width: 20%;
+	top: 40%;
+	right: 18%;
+}
+
+.reg__login {
+	background-color: #05aecc;
+	background: #05aecc url(../../img/__reg-img/reg2.png) no-repeat 25% 50%;
+	background-size: 35%;
+	position: relative;
+}
+
+.reg__check {
+	background-color: #f0626e;
+	background: #f0626e url(../../img/__reg-img/reg3.png) no-repeat 25% 50%;
+	background-size: 35%;
+	position: relative;
+}
+
+.reg__btn-check {
+	display: block;
+	text-align: center;
+	margin: 4vh auto;	
+	width: 50%;
+	display: block;
+  background: #05aecc;
+	color: white;	
+	text-align: center;
+	padding: 1.5vh;
+}
+
+.reg__btn-check:hover {
+	background: #3686a0;
+	transition: all 0.3s ease;
+}
+/*Registration - end*/
