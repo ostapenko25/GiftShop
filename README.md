@@ -1,5 +1,5 @@
 # GiftShop
-Adaptive layouts for the shop of clithes and goods.
+Adaptive layouts for the shop of clothes and accessories.
 Demo: http://frontendlviv.pe.hu/portfolio/9/
 
 ========================
@@ -8,5 +8,5 @@ Demo: http://frontendlviv.pe.hu/portfolio/9/
 1. Версии для десктопа, планшетов и мобильных.
 2. Самописные элементы на нативном Javascript: два слайдера (один из них адаптивный, в ПК-версии имеет 3 кадра, в версии для планшетов - 1 кадр) и меню-гамбургер в мобильной версии.
 3. Для анимации появления блоков использованы плагины animation.css и wow.js
-4. Использована методология БЭМ для именование классов и организации проекта. 
+4. Использована методология БЭМ для именования классов и организации проекта. 
 Демо: http://frontendlviv.pe.hu/portfolio/9/
